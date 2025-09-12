@@ -2,9 +2,11 @@ import React from "react";
 
 const Countrycard = ({ countrydata }) => {
   return (
+    <div className="container">
     <div className="countryCard">
       <img src={countrydata.png} alt={countrydata.common} />
-      <h5>{countrydata.common}</h5>      
+      <p className="countryname">{countrydata.common}</p>      
+    </div>
     </div>
   );
 };
