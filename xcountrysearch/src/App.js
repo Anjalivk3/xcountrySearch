@@ -67,8 +67,7 @@ useEffect(() => {fetchcountry()}, []);
             placeholder="Search for countries..."
             value={searchText}
             onChange={(e) => handleChange(e)}
-          />
-          <h3>hello</h3>
+          />          
         </form>
       </div> 
        <div className="country_data">
