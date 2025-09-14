@@ -9,7 +9,7 @@ function App() {
 // const [filterCountryData, setFilterCountryData] = useState([]);
 
 const handleChange = (e) =>{
-  console.log("handle set search text");
+//  console.log("handle set search text");
     setSearchText(e.target.value);
 }
 
