@@ -8,6 +8,7 @@ const Countrycard = ({ countrydata }) => {
       <h2 className="countryname">
         {countrydata.common}        
       </h2>    
+      
     </div>
   );
 };
